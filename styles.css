@@ -56,3 +56,27 @@ header {
   text-align: center;
   border-radius: 8px;
 }
+
+/* Desktop */
+@media (min-width: 1200px) {
+  .nav-container {
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: auto;
+  }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .nav-container {
+    grid-template-columns: 100px 100px;
+    grid-template-rows: auto auto;
+  }
+}
+
+/* Mobile */
+@media (max-width: 320px) {
+  .nav-container {
+    grid-template-columns: 100px;
+    grid-template-rows: auto auto auto;
+  }
+}
