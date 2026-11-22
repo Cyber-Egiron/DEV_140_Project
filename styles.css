@@ -12,20 +12,23 @@ body {
 
 h1 {
   text-align: center;
+  color: #3F4B3B;
 }
 
 h2 {
-  text-align: left
+  text-align: left;
+  color: #44633F;
 }
 
 h3 {
   text-align: center;
+  color: #44633F;
 }
 
 
 header {
+  padding: 0px;
   background-color: #5cab7d;
-  padding: 24px;
 }
 
 .nav-container {
