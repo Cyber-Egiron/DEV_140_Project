@@ -1,3 +1,3 @@
 # DEV_140_Project
 After running WAVE on all 3 of my pages, they came back with the same results. Which is the contrast between the text on my hyperlinks and the background colors. I made the adjustment so that hyperlink text is easily noticable.
-Two of Gestalts Principles that I have utilized are similarity and promimity. Both principles can be seen in my page nav bar, the hyperlinks are matching styles and places together. Both principles are indicating that they are connected.
+Two of Gestalts Principles that I have utilized are similarity and promimity. Both principles can be seen in my page nav bar, the hyperlinks are matching styles and places together. Both principles are indicating that they are connected. Another principle that I have implimented is continuity, all of my pages run down the middle of the page. This makes it easier for the eyes to follow a path down the page.
