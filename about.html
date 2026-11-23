@@ -25,6 +25,8 @@
             <h2>My Story</h2>
             <p>I was born and raised in New Mexico until the age of 16. I then moved to the great city of Las Vegas
                 Nevada.</p>
+        </section>
+        <section>
             <h2>Education</h2>
             <p>When I began my highschool education I started in New Mexico at Socorro Highschool. I then transferred
                 over to Chaparral Highschool after I had moved
@@ -32,8 +34,39 @@
                 years of not being satisfied with where I am
                 I decied to go back to school and earn a degree in something that excites me.
             </p>
-            <h3>Contact Info</h3>
-            <p>Email: Egiron@my.campus.edu</p>
+        </section>
+        <section>
+            <h3>Contact Me</h3>
+            <p>Please feel free to reach out to me using the form below!</p>
+        </section>
+        <section>
+            <form id="contact-form" class="contact-form">
+                <div id="error-summary" role="alert" tabindex="-1" hidden></div>
+                <fieldset class="info-fieldset">
+                    <legend>Contact Form</legend>
+                    <div>
+                        <label for="name">Name *</label>
+                        <input type="text" id="name" name="name" placeholder="Your name" required autocomplete="name"
+           required aria-describedby="name-error">
+                        <span class="error" id="name-error"></span>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" placeholder="Your email" autocomplete="email"
+           required aria-describedby="email-error">
+                        <span class="error" id="email-error"></span>
+                    </div>
+                    <br>
+                    <label for="message">Message *</label>
+                    <textarea id="message" name="message" placeholder="Your message" rows="5" required aria-describedby="message-error"></textarea>
+                    <span class="error" id="message-error"></span>
+                </fieldset>
+                    <br>
+                
+                <button type="submit">Send</button>
+                <button type="reset">Reset</button>
+            </form>
         </section>
     </main>
     <footer>Created by: Eugene Giron</footer>
